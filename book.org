@@ -1,6 +1,50 @@
 * Foreword
 * Markup Language
+** Markdown
+** HTML
+* Tools
+** Terminal
+** Text Editor
 * HTML
 ** Hierarchy
+** div
 * CSS
+** Block vs. Inline
+** Inline Block
+* Communicating with a Computer
+** Bits
 * Intro to JavaScript
+** Numbers
+** Strings
+** Variables
+** Conditionals
+** Loops
+** Arrays
+** Objects
+* Sorts with JavaScript
+** Bubble Sort
+** Selection Sort
+** Insertion Sort
+** Merge Sort
+** Quick Sort
+* HTML/CSS/JS
+* Intro to Ruby
+** Numbers
+** Strings
+** Variables
+** Conditionals
+** Loops
+** Arrays
+** Objects
+* Sinatra
+* Database Designs
+* MySQL
+* REST
+* Building APIs with Sinatra
+* Ajax and APIs 
+* Rails I
+* Rails II
+* Real-time Applications
+* WebRTC with SimpleWebRTC
+* Livestreaming with Wowza
+* Payments with Stripe
