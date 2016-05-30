@@ -1,18 +1,48 @@
 * Foreword
 * Markup Language
 ** Markdown
+*** Github
+*** Twitch
 ** HTML
+*** Inspect Element
 * Tools
 ** Terminal
+*** ls
+*** cd
+**** .
+**** ..
+*** mkdir
+*** mv
+*** rm
+*** rm -rf
 ** Text Editor
+*** Atom
 * HTML
 ** Hierarchy
 ** div
+** h1..h6
+** p
+** div
+** img
+** a
+** Inspect Element
+* HTML5
+** video
+** audio
+** Semantic tags
 * CSS
 ** Block vs. Inline
 ** Inline Block
+* CSS3
+** border-radius
+** vendor prefix
+* Responsive Design
+** Media query
+** em
 * Communicating with a Computer
 ** Bits
+** Binary
+** ASCII
 * Intro to JavaScript
 ** Numbers
 ** Strings
@@ -27,9 +57,19 @@
 ** Insertion Sort
 ** Merge Sort
 ** Quick Sort
+* Data Structures with JavaScript
+** Array
+** Linked List
 * HTML/CSS/JS
 ** Event listeners
 ** Callbacks
+* JQuery
+** addClass
+** removeClass
+** html
+* Bootstrap
+** Columns
+** Navbar
 * Intro to Ruby
 ** Numbers
 ** Strings
@@ -105,7 +145,9 @@
 *** Sign in
 *** Sign up
 ** Channels
+*** one to many
 ** Fans
+*** many to many
 * Rails III
 ** RSpec
 ** RSpec Rails
@@ -117,12 +159,15 @@
 ** Socket.io
 * Livestreaming with Wowza
 ** Transcoder
+*** OBS
 ** Wowza Streaming Engine
 ** JWPlayer
 ** Deployment
+*** EC2
 * Payments with Stripe
 ** Checkout
 ** Connect
+** Subscribers
 * Deployment with Heroku
 ** Sinatra
 ** Rails
