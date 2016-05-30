@@ -3,6 +3,7 @@
 ** Markdown
 *** Github
 *** Twitch
+** Org-mode markup language
 ** HTML
 *** Inspect Element
 * Tools
