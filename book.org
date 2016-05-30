@@ -1,13 +1,16 @@
-* Foreword
-* Markup Language
-** Markdown
-*** Github
-*** Twitch
-** Org-mode markup language
-** HTML
-*** Inspect Element
+* Why Learn to Program?
+** Avenue for your other passions
+** Weird world of open source
+** Freedom and hope
+* What is a website
+** Lets start with a basic website
+*** HTML is just text
+*** Example of .html file
+*** Deployment
+*** Request Response
 * Tools
 ** Terminal
+Different way to interact with the computer
 *** ls
 *** cd
 **** .
@@ -17,32 +20,105 @@
 *** rm
 *** rm -rf
 ** Text Editor
+Your canvas
 *** Atom
+*** vi
+*** Sublime Text
+*** Microsoft Word
+*** Notepad
+*** emacs
+* Markup Language: Hierarchy
+** Examples
+*** Github
+**** Markdown
+*** This file
+**** org-mode markup language
+*** Website
+**** HTML
+*** Android
+**** XML
+*** iOS
+**** XML
 * HTML
 ** Hierarchy
+*** Markup hierarchy of a research paper
+*** Newspaper
+** Different way to think about it
+*** World of objects
+*** Objects inside of objects
 ** div
+*** Most generic markup
+**** Division of space
+*** Most generic object
+**** Blank canvas
+**** Go over default settings in different browsers
 ** h1..h6
+*** Headers
+**** Go over default settings in different browsers
+*** Newspaper headings
 ** p
-** div
-** img
+*** Paragraphs
+**** Go over default settings in different browsers
 ** a
+*** Links
+*** Different pages
+**** External link
+**** Internal link
+*** Images
+**** S3
+**** Imgur
 ** Inspect Element
+*** Markup
+**** HTML
+*** CSS sneak peak
 * HTML5
 ** video
+*** S3
+*** VODs
 ** audio
+*** S3
+*** Podcast
 ** Semantic tags
+*** Common classes that everyone was using
+**** nav
+**** section
+**** header
+**** footer
+**** aside
 * CSS
 ** Block vs. Inline
+*** Block
+*** Inline
+*** Key Differences
+**** width/height
+**** margin/padding
+***** Picture example
 ** Inline Block
+*** width/height
+*** margin/padding
+*** inline
+*** vertical align top
 * CSS3
 ** border-radius
+*** Rounded edges
 ** vendor prefix
+*** Experimental technology
 * Responsive Design
+** Different screen sizes
 ** Media query
 ** em
+* Bootstrap
+** Columns
+** Navbar
 * Communicating with a Computer
 ** Bits
+*** Text
+*** Images
+*** Videos
+*** 3D Videos
 ** Binary
+*** Binary -> Number
+*** Number -> Letter
 ** ASCII
 * Intro to JavaScript
 ** Numbers
@@ -68,9 +144,6 @@
 ** addClass
 ** removeClass
 ** html
-* Bootstrap
-** Columns
-** Navbar
 * Intro to Ruby
 ** Numbers
 ** Strings
