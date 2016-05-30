@@ -28,6 +28,8 @@
 ** Merge Sort
 ** Quick Sort
 * HTML/CSS/JS
+** Event listeners
+** Callbacks
 * Intro to Ruby
 ** Numbers
 ** Strings
@@ -37,14 +39,91 @@
 ** Arrays
 ** Objects
 * Sinatra
+** Routes
+** GET
+** POST
 * Database Designs
+** One to One
+** One to Many
+** Many to Many
 * MySQL
+** SELECT
+** INSERT
+** UPDATE
+** DELETE
+** LEFT JOIN
+** JOIN
+** SELF JOIN
 * REST
+** index
+** new
+** create
+** edit
+** update
+** destroy
 * Building APIs with Sinatra
+** index
+** new
+** create
+** edit
+** update
+** destroy
 * Ajax and APIs 
+** $.get
+** $.post
+** $.ajax
 * Rails I
+** App structure
+*** app
+**** models
+**** controllers
+**** views
+*** assets
+**** stylesheets
+**** javascripts
+**** images
+*** config/routes.rb
+** Routes
+** Controllers
+*** ApplicationController
+** Views
+** Models
+*** ActiveRecord::Base
+*** Migrations
+*** Validations
+** MVC
+*** Error driven flow
+** REST
+*** index
+*** new
+*** create
+*** edit
+*** update
+*** destroy
 * Rails II
+** Authentication
+*** Sign in
+*** Sign up
+** Channels
+** Fans
+* Rails III
+** RSpec
+** RSpec Rails
+** Capybara
+** Acceptance Tests
+** Unit Tests
 * Real-time Applications
-* WebRTC with SimpleWebRTC
+** Node.js
+** Socket.io
 * Livestreaming with Wowza
+** Transcoder
+** Wowza Streaming Engine
+** JWPlayer
+** Deployment
 * Payments with Stripe
+** Checkout
+** Connect
+* Deployment with Heroku
+** Sinatra
+** Rails
+** Add-ons
