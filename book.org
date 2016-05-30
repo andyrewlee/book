@@ -118,8 +118,8 @@ Your canvas
 *** 3D Videos
 ** Binary
 *** Binary -> Number
-*** Number -> Letter
 ** ASCII
+*** Number -> Letter
 * Intro to JavaScript
 ** Numbers
 ** Strings
@@ -132,39 +132,60 @@ Your canvas
 ** Bubble Sort
 ** Selection Sort
 ** Insertion Sort
+* Advanced Sorts & Data Structures with JavaScript
+** Recursion
 ** Merge Sort
 ** Quick Sort
-* Data Structures with JavaScript
 ** Array
 ** Linked List
 * HTML/CSS/JS
+Website is just HTML/CSS/JS no matter what it was written in.
+** Example with all three
 ** Event listeners
 ** Callbacks
 * JQuery
+** Browser compatibility
 ** addClass
 ** removeClass
 ** html
 * Intro to Ruby
+** Objects
 ** Numbers
 ** Strings
 ** Variables
 ** Conditionals
 ** Loops
 ** Arrays
-** Objects
 * Sinatra
 ** Routes
 ** GET
 ** POST
+*** form
 * Database Designs
 ** One to One
+*** User has one classroom
+*** User has one facebook
 ** One to Many
+*** Repositories
+*** Tweets
+*** Posts
 ** Many to Many
+*** Likes
+*** Fans
+*** Subscriptions
 * MySQL
-** SELECT
 ** INSERT
+*** Create
+*** create
+** SELECT
+*** Read
+*** index & show
 ** UPDATE
+*** Update
+*** update
 ** DELETE
+*** Delete
+*** destroy
 ** LEFT JOIN
 ** JOIN
 ** SELF JOIN
@@ -177,36 +198,82 @@ Your canvas
 ** destroy
 * Building APIs with Sinatra
 ** index
+*** get '/users'
 ** new
+*** get '/users/new'
 ** create
+*** post '/users'
 ** edit
+*** get '/users/1/edit'
 ** update
+*** patch '/users/1'
 ** destroy
+*** delete '/users/1'
 * Ajax and APIs 
 ** $.get
+*** get request to a URL and do something with the response
 ** $.post
+*** post request to a URL and do something with the response
 ** $.ajax
+*** generic way to send all ajax request to a URL and do something with the response
+*** promise
 * Rails I
 ** App structure
 *** app
 **** models
 **** controllers
+***** UsersController
 **** views
+***** users
+****** index.html.erb
+****** new.html.erb
+****** show.html.erb
+****** edit.html.erb
 *** assets
 **** stylesheets
+***** users.scss
+***** Sass
+****** variables
+****** nesting
 **** javascripts
+***** users.js
+***** users.coffee
 **** images
+***** icons/svgs
+***** s3
 *** config/routes.rb
+**** get '/users'
+**** get '/users/new'
+**** post '/users'
+**** get '/users/1/edit'
+**** patch '/users/1'
+**** delete '/users/1'
 ** Routes
+*** It all starts with the route
 ** Controllers
 *** ApplicationController
+*** action
 ** Views
+*** same name as action
 ** Models
 *** ActiveRecord::Base
 *** Migrations
+**** version control for the database
 *** Validations
+**** presence
+**** regexp
+**** numericality
 ** MVC
 *** Error driven flow
+*** Model
+**** TicTacToeGame
+*** View
+*** Controller
+*** Examples
+**** Website
+**** Game
+**** iOS
+**** Android
 ** REST
 *** index
 *** new
@@ -224,13 +291,30 @@ Your canvas
 *** many to many
 * Rails III
 ** RSpec
-** RSpec Rails
+*** Linked List in Ruby
+** Rails Test Suite
+*** rspec
+*** capybara
+*** database-cleaner
 ** Capybara
-** Acceptance Tests
+*** Feature tests
 ** Unit Tests
+*** Model
+*** Routes
+*** Permissions
 * Real-time Applications
 ** Node.js
+*** Back-end JavaScript Environment
+*** Node modules
+*** Real-time
 ** Socket.io
+*** Two libraries
+**** Server side
+**** Client side
+*** Examples
+**** Chat
+**** iOS
+**** Android
 * Livestreaming with Wowza
 ** Transcoder
 *** OBS
@@ -245,4 +329,4 @@ Your canvas
 * Deployment with Heroku
 ** Sinatra
 ** Rails
-** Add-ons
+** Socket server
