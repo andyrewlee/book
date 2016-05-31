@@ -1,10 +1,34 @@
 * Why Learn to Program?
 ** Avenue for your other passions
+Some people love programming for the sake of programming. They love solving problems. Some
+programmers however, love programming because of what it can do for whatever their passion
+might be. Whatever industry you want to disrupt, understanding how to program will give you
+the extra edge. It doesn't matter if you want to become a yogi or an investment banker,
+programming will help you get to the next level because not only does it help you utilize
+computing power but also help you how to think logically.
 ** Weird world of open source
+Open source is a weird community. People are still not sure how this works. When you spend
+hours writing beautiful code, it's logical to think that people would want to keep it for
+themselves. But the culture in programming is not like that. We are constantly building on
+top of other people's work so that we me go further together. So people write beautiful code
+and make it available for free. People learn from it, modify it, and contribute to it. The 
+belief is that code written together will always be better than code written by the few.
+*** [[https://github.com/bitcoin/bitcoin][Bitcoin]] 
+*** [[https://github.com/rails/rails][Rails]] 
+*** [[https://github.com/atom/atom][Atom]] 
 ** Freedom and hope
+Programming is fair. The more work you put in the better you are. Code speaks for itself and
+having this tangible skill can give you the freedom to work efficiently as long as you have a
+text editor and terminal in front of you. It also gives you hope. The chances aren't amazing
+but it's cool to know that there is at least a 0.00000001% chance that a weekend project might
+end up making a signficant impact on society.
 * What is a website
 ** Lets start with a basic website
 *** HTML is just text
+A website looked so complicated to make. How on Earth does someone make a website? It felt
+like magic. Too bad a website is just text. Everything is text, this is going be a common
+theme. All text can be represented by numbers and numbers can be represented in bits. Whoa
+we'll come back to this later, but the important part is a website is just text.
 *** Example of .html file
 *** Deployment
 *** Request Response
