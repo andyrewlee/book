@@ -16,6 +16,11 @@ belief is that code written together will always be better than code written by 
 *** [[https://github.com/bitcoin/bitcoin][Bitcoin]] 
 *** [[https://github.com/rails/rails][Rails]] 
 *** [[https://github.com/atom/atom][Atom]] 
+This is the text editor that we will be using. Let's go ahead and download this onto our
+computer. The benefits of using Atom is that it can be used by a beginner right away but
+it is also very extensible for seasoned developers. You might here some people saying
+Sublime Text is better to start using which is also a great alternative. However Sublime
+Text is not free and will continue to bug you to pay if you use the free version.
 ** Freedom and hope
 Programming is fair. The more work you put in the better you are. Code speaks for itself and
 having this tangible skill can give you the freedom to work efficiently as long as you have a
@@ -30,27 +35,61 @@ like magic. Too bad a website is just text. Everything is text, this is going be
 theme. All text can be represented by numbers and numbers can be represented in bits. Whoa
 we'll come back to this later, but the important part is a website is just text.
 *** Example of .html file
+#+BEGIN_SRC html
+<h1>Hello</h1>
+#+END_SRC
 *** Deployment
+**** Putting this file in an external computer
 *** Request Response
+**** What is a URL consist of?
+***** Domain to figure out the IP Address, location of the computer
+***** Instructions
 * Tools
 ** Terminal
 Different way to interact with the computer
 *** ls
+List (almost) everything in the current location.
+*** ls -a
+List everything in the current location
 *** cd
 **** .
+Stands for the current directory
 **** ..
+Parent directory
+**** cd directory_name
 *** mkdir
+Make directory
 *** mv
+**** Move
+**** Rename
 *** rm
+**** Remove
 *** rm -rf
+**** Remove directories
 ** Text Editor
 Your canvas
 *** Atom
+**** Open source
+**** Maintained by Github
+**** CoffeeScript
 *** vi
+**** Available in most computers
+**** Known to have a high learning curve
+**** Encounter with vi is inevitable
+***** Deployment
+***** ssh into remote server
 *** Sublime Text
+**** Not open source
+**** Not free
+**** Used to be cool
 *** Microsoft Word
+**** It would be a horrible text editor for programming but could work
+***** Would add a lot of extra markup to make it display properly
 *** Notepad
+**** Could work but why
 *** emacs
+**** Operating system with a text editor inside of it
+**** My current choice is spacemacs which is a emacs for the environment with vi for editing
 * Markup Language: Hierarchy
 ** Examples
 *** Github
