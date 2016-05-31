@@ -46,7 +46,11 @@ we'll come back to this later, but the important part is a website is just text.
 ***** Instructions
 * Tools
 ** Terminal
-Different way to interact with the computer
+Different way to interact with the computer. In fact it was the only way we could interact
+with a computer before. When there was no mouse and pretty graphic user interfaces, the only
+way to communicate was with the terminal. As you develop more, you will start to gravitate
+more and more towards interacting with your computer with the terminal because it is more
+efficient, and you can do a lot more damage. With great power comes great responsibility.
 *** ls
 List (almost) everything in the current location.
 *** ls -a
@@ -67,7 +71,10 @@ Make directory
 *** rm -rf
 **** Remove directories
 ** Text Editor
-Your canvas
+A text editor is a very sacred tool. You will spend most of your day on this because the job
+of a programmers is to edit text. People spend a little bit too much time configuring their
+text editors and making it just right but it's justified. This is your home base. It's scary
+what you can do with just a text editor and terminal.
 *** Atom
 **** Open source
 **** Maintained by Github
