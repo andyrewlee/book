@@ -46,11 +46,26 @@ we'll come back to this later, but the important part is a website is just text.
 ***** Instructions
 * Tools
 ** Terminal
-Different way to interact with the computer. In fact it was the only way we could interact
-with a computer before. When there was no mouse and pretty graphic user interfaces, the only
-way to communicate was with the terminal. As you develop more, you will start to gravitate
-more and more towards interacting with your computer with the terminal because it is more
-efficient, and you can do a lot more damage. With great power comes great responsibility.
+Terminal is a different way to interact with the computer. The OG way. In fact it was the only
+way we could interact with a computer before. When there was no mouse and pretty graphic user
+interfaces, the only way to communicate was with the terminal. As you develop more, you will
+start to gravitate more and more towards interacting with your computer with the terminal
+because it is more efficient, and you can do a lot more damage. With great power comes great
+responsibility.
+
+For those of you thinking, oh I'll learn this later let me try one more time to convince you. 
+It's true we can nowadays do most of the development work without using the terminal. However,
+as web developers, we can visit remote computers through our own terminal. Then, we have to user
+the terminal commands so therefore learning the terminal is not a nice to have, but a required
+skill of a web developer.
+
+Now when we use the terminal to visit other computers, it's most likely computers that is
+running some flavor of Linux an operating system like OS X and Windows but open source and what
+is often used to deploy programs on the web. If you are a Mac user good news, the commands are
+almost identical so practicing in the Terminal app will prepare you for the future. If you are
+a Windows user I would install and use the Linux bash shell so that all of the commands you
+practice will come in handy in the future when we user out terminal later in the book to use
+to visit other computers.
 *** ls
 List (almost) everything in the current location.
 *** ls -a
@@ -72,9 +87,9 @@ Make directory
 **** Remove directories
 ** Text Editor
 A text editor is a very sacred tool. You will spend most of your day on this because the job
-of a programmers is to edit text. People spend a little bit too much time configuring their
-text editors and making it just right but it's justified. This is your home base. It's scary
-what you can do with just a text editor and terminal.
+of programmers is to edit text. People spend a little bit too much time configuring their text
+editors and making it just right but it's justified. This is your home base. It's scary what
+you can do with just a text editor and terminal.
 *** Atom
 **** Open source
 **** Maintained by Github
