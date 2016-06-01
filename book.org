@@ -5,7 +5,7 @@ programmers however, love programming because of what it can do for whatever the
 might be. Whatever industry you want to disrupt, understanding how to program will give you
 the extra edge. It doesn't matter if you want to become a yogi or an investment banker,
 programming will help you get to the next level because not only does it help you utilize
-computing power but also help you how to think logically.
+computing power but also make you a better problem solver.
 ** Weird world of open source
 Open source is a weird community. People are still not sure how this works. When you spend
 hours writing beautiful code, it's logical to think that people would want to keep it for
@@ -90,28 +90,43 @@ A text editor is a very sacred tool. You will spend most of your day on this bec
 of programmers is to edit text. People spend a little bit too much time configuring their text
 editors and making it just right but it's justified. This is your home base. It's scary what
 you can do with just a text editor and terminal.
+
+It is highly recommended to know one editor really well. I've heard people say pick one editor
+and learn it well. Text editors are awesome. I love text editors so the rest of this section
+might be TMI. But really text editors are awesome.
+
+[[http://www.manuelmagic.me/resources/Geek/Text-editors/text_editors.jpg][Learning Curves For Some Common Text Editors]]
 *** Atom
-**** Open source
-**** Maintained by Github
-**** CoffeeScript
+Atom is an extensible, open source text editor that's full-featured from the start. It is
+written in mostly Coffeescript which is language that gets translated into JavaScript. The
+hipster way of writing JavaScript. This is why I would recommend this editor who is just
+starting to learn programming because not only is it full-featured but it also gives
+developers to use a really cool language to customize it. Oh, and it's open source so
+there's a better chance it will stick around let's say 50 years from now.
 *** vi
-**** Available in most computers
-**** Known to have a high learning curve
-**** Encounter with vi is inevitable
-***** Deployment
-***** ssh into remote server
+Even if you pick any other editor, you will end up having to use vi. When we visit remote
+computers using our terminal, it will be the most convenient to just use vi to edit text
+because most computers come baked with it. It's been around since the 70s which gives me
+confidence that it will survive up until the day the world ends.
+
+vi is a text editor that gives you absolute command of the text editor at your fingertips.
+Now this is a great thing but it takes a really long time to get used to it. We will run
+into vi when we deploy later, it can wait until then.
 *** Sublime Text
-**** Not open source
-**** Not free
-**** Used to be cool
+Sublime Text used to be the hottest editor in town until Atom came out. Honestly it's
+amazing software but it isn't free or open source. It's not made by a huge company either
+so there is a chance that this editor might die let's say 50 years from now. It might still
+be around but why pay for an editor when there are such amazing free open source text
+editors out there?
 *** Microsoft Word
-**** It would be a horrible text editor for programming but could work
-***** Would add a lot of extra markup to make it display properly
+Microsoft Word is a text editor. It's horrible for writing code because it will generate a
+lot of random characters that only Microsoft Word will understand.
 *** Notepad
-**** Could work but why
-*** emacs
-**** Operating system with a text editor inside of it
-**** My current choice is spacemacs which is a emacs for the environment with vi for editing
+Notepad is a text editor too! But why would you program with Notepad.
+*** Emacs
+Emacs is an operating system that has a great text editor. It's also from the 70s and going
+to last until the world ends. There's constant debate between vi fan boys and Emacs lovers
+but there is mutual respect between the two parties.
 * Markup Language: Hierarchy
 ** Examples
 *** Github
