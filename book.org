@@ -128,21 +128,30 @@ Emacs is an operating system that has a great text editor. It's also from the 70
 to last until the world ends. There's constant debate between vi fan boys and Emacs lovers
 but there is mutual respect between the two parties.
 * Markup Language: Hierarchy
+Now I know what a lot of people will do when we start learning about HTML. Oh I know that stuff!
+If you don't great. Don't underestimate it. Technically it's not programming because it is a
+markup language. However, I find it alarming how many people don't actually understand what HTML
+is at its core because its often considered for beginners. I didn't understand it for a while
+until I started using markup languages other than HTML.
+
+Let's take a look at some markup languages. Notice the common trend. A markup language does not
+define how something should look. A markup language defines the hierarchy of text or a hierarchy
+of objects. Once again markup represents hierarchy and have nothing to do with how it should
+look like.
 ** Examples
-*** Github
-**** Markdown
-*** This file
-**** org-mode markup language
-*** Website
-**** HTML
-*** Android
-**** XML
-*** iOS
-**** XML
+*** Markdown
+*** Org-mode
+*** HTML
+*** XML
+**** iOS
+**** Android
 * HTML
 ** Hierarchy
 *** Markup hierarchy of a research paper
 *** Newspaper
+*** html
+**** head
+**** body
 ** Different way to think about it
 *** World of objects
 *** Objects inside of objects
