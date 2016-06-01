@@ -148,13 +148,23 @@ look like.
 * HTML
 ** Hierarchy
 *** Markup hierarchy of a research paper
-*** Newspaper
+An HTML page is called a document because it was initially created to share documents with
+one another. The documents shared were research papers that had clear hierarchy. There was
+the header, a paragraph, some division of space and so on.
 *** html
 **** head
 **** body
 ** Different way to think about it
 *** World of objects
 *** Objects inside of objects
+** Think of Hierarchy
+HTML is a markup language, which means it defines the hierarchy of our document. We can
+construct our website with HTML elements that are given to us. Now it is important that we
+use these elements properly and do not think of the aesthetics of our website but the
+structure. For example in a navigation bar there is a list of links. It might be tempting to
+think of them as pieces of text next to each other, we have to think of them as an unordered
+list of elements which means we should use the <ul> and the <li> tags and then worry about
+making them next to each other later after we are done marking up the document.
 ** div
 *** Most generic markup
 **** Division of space
