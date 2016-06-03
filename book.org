@@ -190,20 +190,74 @@ making them next to each other later after we are done marking up the document.
 *** Markup
 **** HTML
 *** CSS sneak peak
+* Classes and Identification
+HTML objects can belong to many classes but have one identification. We can be affiliated with
+many clubs and organizations but we have one social security number. There are other people who
+are in these clubs and organizations with us but they do not have the same social security
+number as us.
+** Why do we need them?
+*** Style
+#+BEGIN_SRC html
+<html>
+  <head>
+    <title>Classes and Identification</title>
+    <style>
+    .read {
+      color: green;
+    }
+
+    #new-article-btn {
+      color: red;
+    }    
+    </style>
+  </head>
+  <body>
+
+    <h1>Article One</h1>
+    <p>Body of article one</p>
+    <button class="like-btn">Like</button>
+
+    <h1 class="read">Article Two</h1>
+    <p>Body of article two</p>
+    <button class="like-btn">Like</button>
+
+    <h1 class="read">Article Three</h1>
+    <p>Body of article three</p>
+    <button class="like-btn">Like</button>
+
+    <button id="new-article-btn">New Article</button>
+  </body>
+</html>
+#+END_SRC
+*** Event listeners
+#+BEGIN_SRC html
+<h1>Hello</h1>
+document.getElementById('new-article-btn').onclick = function() {
+  console.log('I was clicked');
+}
+#+END_SRC
+*** DOM Manipulation
+#+BEGIN_SRC html
+<script>
+document.getElementById('new-article-btn').innerHTML = 'Click Me';
+</script>
+#+END_SRC
 * HTML5
-** video
-*** S3
-*** VODs
-** audio
-*** S3
-*** Podcast
 ** Semantic tags
+A lot of the new HTML5 tags fall under the category of being semantic tags
 *** Common classes that everyone was using
 **** nav
 **** section
 **** header
 **** footer
 **** aside
+** canvas
+** video
+*** S3
+*** VODs
+** audio
+*** S3
+*** Podcast
 * CSS
 ** Block vs. Inline
 *** Block
