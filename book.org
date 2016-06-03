@@ -140,10 +140,7 @@ HTML is a markup language, which means it defines the hierarchy of our document.
 **** HTML
 *** CSS sneak peak
 * Classes and Identification
-HTML objects can belong to many classes but have one identification. We can be affiliated with
-many clubs and organizations but we have one social security number. There are other people who
-are in these clubs and organizations with us but they do not have the same social security
-number as us.
+HTML objects can belong to many classes but have one identification. We can be affiliated with many clubs and organizations but we have one social security number. There are other people who are in these clubs and organizations with us but they do not have the same social security number as us.
 ** Why do we need them?
 *** Style
 #+BEGIN_SRC html
@@ -193,14 +190,9 @@ document.getElementById('new-article-btn').innerHTML = 'Click Me';
 #+END_SRC
 * HTML5
 ** Semantic tags
-People were using divs too much. There's nothing wrong with using a lot of divs on a website
-although we will have to make sure to use classes and ids to differentiate one div from
-another. What people realized was that there were some class names there were being
-consistently used on other websites such as 'nav', 'footer', 'section', and so on.
+People were using divs too much. There's nothing wrong with using a lot of divs on a website although we will have to make sure to use classes and ids to differentiate one div from another. What people realized was that there were some class names there were being consistently used on other websites such as 'nav', 'footer', 'section', and so on.
 
-Therefore in HTML5 we were introduced more descriptive tags named after the most commonly
-used class names so that we don't always just create a div and slap on a class but use one
-of the HTML5 tags if you are going to give a class name that has its own tag.
+Therefore in HTML5 we were introduced more descriptive tags named after the most commonly used class names so that we don't always just create a div and slap on a class but use one of the HTML5 tags if you are going to give a class name that has its own tag.
 **** nav
 **** section
 **** header
