@@ -330,13 +330,118 @@ span, a
 ** ASCII
 *** Number -> Letter
 * Intro to JavaScript
-** Numbers
-** Strings
 ** Variables
+#+BEGIN_SRC javascript
+var myInt;
+var myFloat;
+#+END_SRC
+** Numbers
+#+BEGIN_SRC javascript
+var myInt;
+var myFloat;
+
+console.log('myInt is', myInt);
+console.log('myFloat is', myFloat);
+
+myInt = 2;
+myFloat = 2;
+
+console.log('myInt is', myInt);
+console.log('myFloat is', myFloat);
+#+END_SRC
+#+BEGIN_SRC javascript
+var myInt = 2;
+var myFloat = 2;
+#+END_SRC
+#+BEGIN_SRC javascript
+var myInt;
+var myFloat;
+
+myInt = 2;
+myFloat = 2;
+#+END_SRC
+** Strings
+#+BEGIN_SRC javascript
+var myStr;
+myStr = 'Hello I am a string';
+myStr = "I can have double quotes as well";
+#+END_SRC
+#+BEGIN_SRC javascript
+var myStr;
+myStr = 'I have to be printed to the console';
+console.log(myStr);
+#+END_SRC
 ** Conditionals
+#+BEGIN_SRC javascript
+var condition = true;
+if(condition == true) {
+  console.log('Condition is true');
+} else {
+  console.log('Condition is false);
+}
+#+END_SRC
+#+BEGIN_SRC javascript
+console.log(true && true);
+console.log(true && false);
+console.log(false && true);
+console.log(false && false);
+
+console.log(true || true);
+console.log(true || false);
+console.log(false || true);
+console.log(false || false);
+#+END_SRC
 ** Loops
+#+BEGIN_SRC javascript
+var i;
+i = 0;
+
+while(i < 9) {
+  console.log('i', i)
+  i++;
+}
+#+END_SRC
+#+BEGIN_SRC javascript
+for(var i = 0; i < 9; i++) {
+  console.log('increment', increment)
+}
+#+END_SRC
 ** Arrays
+#+BEGIN_SRC javascript
+// |       0 |        1 |       2 |        3 |       4 |
+// |---------+----------+---------+----------+---------|
+// | 'first' | 'second' | 'third' | 'fourth' | 'fifth' |
+
+var myArr = ['first', 'second', 'third', 'fourth', 'fifth'];
+
+console.log(myArr[0]);
+console.log(myArr[1]);
+console.log(myArr[2]);
+console.log(myArr[3]);
+console.log(myArr[4]);
+console.log(myArr.length);
+
+for(var i = 0; i < myArr.length; i++) {
+  console.log(myArr[i]);
+}
+#+END_SRC
 ** Objects
+#+BEGIN_SRC javascript
+var firstName = 'Malcolm;
+var lastName = 'X;
+
+function sayName() {
+  console.log('My name is', firstName + ' ' + lastName)
+}
+
+var malcom = {
+  firstName: 'Malcolm',
+  lastName: 'X',
+  sayName: function() {
+    console.log('My name is', firstName + ' ' + lastName)
+  }
+}
+#+END_SRC
 * Sorts with JavaScript
 ** Bubble Sort
 ** Selection Sort
