@@ -1,39 +1,18 @@
 * Why Learn to Program?
 ** Avenue for your other passions
-Some people love programming for the sake of programming. They love solving problems. Some
-programmers however, love programming because of what it can do for whatever their passion
-might be. Whatever industry you want to disrupt, understanding how to program will give you
-the extra edge. It doesn't matter if you want to become a yogi or an investment banker,
-programming will help you get to the next level because not only does it help you utilize
-computing power but also make you a better problem solver.
+Some people love programming for the sake of programming. They love solving problems. Some programmers however, love programming because of what it can do for whatever their passion might be. Whatever industry you want to disrupt, understanding how to program will give you the extra edge. It doesn't matter if you want to become a yogi or an investment banker, programming will help you get to the next level because not only does it help you utilize computing power but also make you a better problem solver.
 ** Weird world of open source
-Open source is a weird community. People are still not sure how this works. When you spend
-hours writing beautiful code, it's logical to think that people would want to keep it for
-themselves. But the culture in programming is not like that. We are constantly building on
-top of other people's work so that we me go further together. So people write beautiful code
-and make it available for free. People learn from it, modify it, and contribute to it. The 
-belief is that code written together will always be better than code written by the few.
+Open source is a weird community. People are still not sure how this works. When you spend hours writing beautiful code, it's logical to think that people would want to keep it for themselves. But the culture in programming is not like that. We are constantly building on top of other people's work so that we me go further together. So people write beautiful code and make it available for free. People learn from it, modify it, and contribute to it. The belief is that code written together will always be better than code written by the few.
 *** [[https://github.com/bitcoin/bitcoin][Bitcoin]] 
 *** [[https://github.com/rails/rails][Rails]] 
 *** [[https://github.com/atom/atom][Atom]] 
-This is the text editor that we will be using. Let's go ahead and download this onto our
-computer. The benefits of using Atom is that it can be used by a beginner right away but
-it is also very extensible for seasoned developers. You might here some people saying
-Sublime Text is better to start using which is also a great alternative. However Sublime
-Text is not free and will continue to bug you to pay if you use the free version.
+This is the text editor that we will be using. Let's go ahead and download this onto our computer. The benefits of using Atom is that it can be used by a beginner right away but it is also very extensible for seasoned developers. You might here some people saying Sublime Text is better to start using which is also a great alternative. However Sublime Text is not free and will continue to bug you to pay if you use the free version.
 ** Freedom and hope
-Programming is fair. The more work you put in the better you are. Code speaks for itself and
-having this tangible skill can give you the freedom to work efficiently as long as you have a
-text editor and terminal in front of you. It also gives you hope. The chances aren't amazing
-but it's cool to know that there is at least a 0.00000001% chance that a weekend project might
-end up making a signficant impact on society.
+Programming is fair. The more work you put in the better you are. Code speaks for itself and having this tangible skill can give you the freedom to work efficiently as long as you have a text editor and terminal in front of you. It also gives you hope. The chances aren't amazing but it's cool to know that there is at least a 0.00000001% chance that a weekend project might end up making a signficant impact on society.
 * What is a website
 ** Lets start with a basic website
 *** HTML is just text
-A website looked so complicated to make. How on Earth does someone make a website? It felt
-like magic. Too bad a website is just text. Everything is text, this is going be a common
-theme. All text can be represented by numbers and numbers can be represented in bits. Whoa
-we'll come back to this later, but the important part is a website is just text.
+A website looked so complicated to make. How on Earth does someone make a website? It felt like magic. Too bad a website is just text. Everything is text, this is going be a common theme. All text can be represented by numbers and numbers can be represented in bits. Whoa we'll come back to this later, but the important part is a website is just text.
 *** Example of .html file
 #+BEGIN_SRC html
 <h1>Hello</h1>
@@ -46,26 +25,11 @@ we'll come back to this later, but the important part is a website is just text.
 ***** Instructions
 * Tools
 ** Terminal
-Terminal is a different way to interact with the computer. The OG way. In fact it was the only
-way we could interact with a computer before. When there was no mouse and pretty graphic user
-interfaces, the only way to communicate was with the terminal. As you develop more, you will
-start to gravitate more and more towards interacting with your computer with the terminal
-because it is more efficient, and you can do a lot more damage. With great power comes great
-responsibility.
+Terminal is a different way to interact with the computer. The OG way. In fact it was the only way we could interact with a computer before. When there was no mouse and pretty graphic user interfaces, the only way to communicate was with the terminal. As you develop more, you will start to gravitate more and more towards interacting with your computer with the terminal because it is more efficient, and you can do a lot more damage. With great power comes great responsibility.
 
-For those of you thinking, oh I'll learn this later let me try one more time to convince you. 
-It's true we can nowadays do most of the development work without using the terminal. However,
-as web developers, we can visit remote computers through our own terminal. Then, we have to user
-the terminal commands so therefore learning the terminal is not a nice to have, but a required
-skill of a web developer.
+For those of you thinking, oh I'll learn this later let me try one more time to convince you. It's true we can nowadays do most of the development work without using the terminal. However, as web developers, we can visit remote computers through our own terminal. Then, we have to user the terminal commands so therefore learning the terminal is not a nice to have, but a required skill of a web developer.
 
-Now when we use the terminal to visit other computers, it's most likely computers that is
-running some flavor of Linux an operating system like OS X and Windows but open source and what
-is often used to deploy programs on the web. If you are a Mac user good news, the commands are
-almost identical so practicing in the Terminal app will prepare you for the future. If you are
-a Windows user I would install and use the Linux bash shell so that all of the commands you
-practice will come in handy in the future when we user out terminal later in the book to use
-to visit other computers.
+Now when we use the terminal to visit other computers, it's most likely computers that is running some flavor of Linux an operating system like OS X and Windows but open source and what is often used to deploy programs on the web. If you are a Mac user good news, the commands are almost identical so practicing in the Terminal app will prepare you for the future. If you are a Windows user I would install and use the Linux bash shell so that all of the commands you practice will come in handy in the future when we user out terminal later in the book to use to visit other computers.
 *** ls
 List (almost) everything in the current location.
 *** ls -a
@@ -128,16 +92,9 @@ Emacs is an operating system that has a great text editor. It's also from the 70
 to last until the world ends. There's constant debate between vi fan boys and Emacs lovers
 but there is mutual respect between the two parties.
 * Markup Language: Hierarchy
-Now I know what a lot of people will do when we start learning about HTML. Oh I know that stuff!
-If you don't great. Don't underestimate it. Technically it's not programming because it is a
-markup language. However, I find it alarming how many people don't actually understand what HTML
-is at its core because its often considered for beginners. I didn't understand it for a while
-until I started using markup languages other than HTML.
+Now I know what a lot of people will do when we start learning about HTML. Oh I know that stuff! If you don't great. Don't underestimate it. Technically it's not programming because it is a markup language. However, I find it alarming how many people don't actually understand what HTML is at its core because its often considered for beginners. I didn't understand it for a while until I started using markup languages other than HTML.
 
-Let's take a look at some markup languages. Notice the common trend. A markup language does not
-define how something should look. A markup language defines the hierarchy of text or a hierarchy
-of objects. Once again markup represents hierarchy and have nothing to do with how it should
-look like.
+Let's take a look at some markup languages. Notice the common trend. A markup language does not define how something should look. A markup language defines the hierarchy of text or a hierarchy of objects. Once again markup represents hierarchy and have nothing to do with how it should look like.
 ** Examples
 *** Markdown
 *** Org-mode
@@ -148,9 +105,7 @@ look like.
 * HTML
 ** Hierarchy
 *** Markup hierarchy of a research paper
-An HTML page is called a document because it was initially created to share documents with
-one another. The documents shared were research papers that had clear hierarchy. There was
-the header, a paragraph, some division of space and so on.
+An HTML page is called a document because it was initially created to share documents with one another. The documents shared were research papers that had clear hierarchy. There was the header, a paragraph, some division of space and so on.
 *** html
 **** head
 **** body
@@ -158,13 +113,7 @@ the header, a paragraph, some division of space and so on.
 *** World of objects
 *** Objects inside of objects
 ** Think of Hierarchy
-HTML is a markup language, which means it defines the hierarchy of our document. We can
-construct our website with HTML elements that are given to us. Now it is important that we
-use these elements properly and do not think of the aesthetics of our website but the
-structure. For example in a navigation bar there is a list of links. It might be tempting to
-think of them as pieces of text next to each other, we have to think of them as an unordered
-list of elements which means we should use the <ul> and the <li> tags and then worry about
-making them next to each other later after we are done marking up the document.
+HTML is a markup language, which means it defines the hierarchy of our document. We can construct our website with HTML elements that are given to us. Now it is important that we use these elements properly and do not think of the aesthetics of our website but the structure. For example in a navigation bar there is a list of links. It might be tempting to think of them as pieces of text next to each other, we have to think of them as an unordered list of elements which means we should use the <ul> and the <li> tags and then worry about making them next to each other later after we are done marking up the document.
 ** div
 *** Most generic markup
 **** Division of space
@@ -463,6 +412,38 @@ Website is just HTML/CSS/JS no matter what it was written in.
 ** removeClass
 ** html
 * Intro to Ruby
+** Love at first sight
+
+Ruby has a special place in my heart. Many people think I am joking when I say this but it helped me get through the roughest times. I never meant to become a programmer but Ruby found me.
+
+My last day as a teacher was a painful one. I became a high school math teacher right after graduating college, full of hope and optimism, determined to impact education in ways where anyone can succeed no matter what zip code they were from. I thought I could change the world, I thought I could make a difference.
+
+As I submitted my resignation letter, I no longer saw a purpose in life. I came to the realization that the world cannot be changed. I became part of the problem. I committed the cardinal sin of teaching; I quit my job just three months in making my students fall even further back in math. I remember on the first day of school promising them that I will not let them down, that I will help them catch up to other students, that I will not give up.
+
+The pain runs deep. I think about it every day. It hurts so much but I never want to forget. It is a reminder that I have unfinished business. Ruby gave me new meaning in life and I cannot forget the pain. I need to remember the pain every day so that I finish what I started. Chances are I will die without making any difference in education, I understand that the education system cannot be changed so easily. But Ruby gives me hope. I know that Ruby gives me super human powers that gives me a 0.0000000000000001% chance of succeeding. That's all I need to keep living, that chance that one day, I can let go of this pain, and be able to forgive myself.
+
+I remember sitting in front of my computer, without a job, wondering what to do from here. I needed something to do, something to keep me going. I remember taking a Python course in college and enjoying it a lot. Something about creating new objects made me feel powerful...it was almost like playing God. After researching different programming languages, I found Ruby. I was drawn to its philosophy. The creator didn't want to create a language for the computers...he wanted to create a language for the humans. He wanted to bring joy to those who program in Ruby. Ruby brought joy back into my life. I became a hermit for the next year studying Ruby.
+*** Joy
+
+What do you mean by creating a language for the humans? Let's look at a quick example. A for loop is one of the most common constructs in any programming language. Computers are really good at doing repetitive tasks and a for loop is a great way to do that. Let's print out 'Hello' three times in JavaScript.
+
+#+BEGIN_SRC javascript
+for(var i = 0; i < 3; i++) {
+  console.log("Hello");
+}
+#+END_SRC
+
+Wtf, really? I didn't understand a for loop for the longest time. JavaScript, and almost every single language was written for the computer. Matz (creator of Ruby) had a different idea. What if we could write it this way?
+
+#+BEGIN_SRC ruby
+3.times { puts "Hello" }
+#+END_SRC
+
+It was love at first sight. Ruby made sense to me. It brought me joy. The more I got to Ruby, the more I realized how much Matz valued the experience of programming in every method. A lot of people think programming is writing instructions for the computer. This is a true statement. But Matz was able to see beyond this notion.
+
+The computer doesn't care if we write our instructions in JavaScript, C, Java, Swift, or any other language. A computer doesn't understand any languages, it only understands 1s and 0s. When we write our programs, it has to first be either interpreted or compiled into 1s and 0s before the computer can understand it.
+
+Programming is for people. Programmers have to read their own and other people's programs all the time. They don't understand 1s and 0s, programmers understand the basic constructs of any programming language. When we write our software, we are writing it for humans, and that is what Ruby is optimized for.
 ** Objects
 ** Numbers
 ** Strings
