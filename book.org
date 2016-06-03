@@ -428,7 +428,7 @@ for(var i = 0; i < myArr.length; i++) {
 ** Objects
 #+BEGIN_SRC javascript
 var firstName = 'Malcolm';
-var lastName = 'X;
+var lastName = 'X';
 
 function sayName() {
   console.log('My name is', firstName + ' ' + lastName)
