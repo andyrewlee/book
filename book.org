@@ -244,8 +244,14 @@ document.getElementById('new-article-btn').innerHTML = 'Click Me';
 #+END_SRC
 * HTML5
 ** Semantic tags
-A lot of the new HTML5 tags fall under the category of being semantic tags
-*** Common classes that everyone was using
+People were using divs too much. There's nothing wrong with using a lot of divs on a website
+although we will have to make sure to use classes and ids to differentiate one div from
+another. What people realized was that there were some class names there were being
+consistently used on other websites such as 'nav', 'footer', 'section', and so on.
+
+Therefore in HTML5 we were introduced more descriptive tags named after the most commonly
+used class names so that we don't always just create a div and slap on a class but use one
+of the HTML5 tags if you are going to give a class name that has its own tag.
 **** nav
 **** section
 **** header
@@ -260,8 +266,38 @@ A lot of the new HTML5 tags fall under the category of being semantic tags
 *** Podcast
 * CSS
 ** Block vs. Inline
+#+BEGIN_SRC html
+<html>
+  <head>
+    <title>Block Level Elements</title>
+    <style>
+      div, p, h1 {
+        background-color: red;
+      }
+
+      span, a {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div id="block-elements">
+      <div>I am a div</div>
+      <p>I am a p</p>
+      <h1>I am a Heading One</h1>
+    </div>
+
+    <div id="inline-elements">
+      <span>I am a span</span>
+      <a href="http://www.nooma.tv">I am a link</a>
+    </div>
+  </body>
+</html>
+#+END_SRC
 *** Block
 *** Inline
+span, a
 *** Key Differences
 **** width/height
 **** margin/padding
