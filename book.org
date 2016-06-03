@@ -377,7 +377,7 @@ var condition = true;
 if(condition == true) {
   console.log('Condition is true');
 } else {
-  console.log('Condition is false);
+  console.log('Condition is false');
 }
 #+END_SRC
 #+BEGIN_SRC javascript
@@ -427,7 +427,7 @@ for(var i = 0; i < myArr.length; i++) {
 #+END_SRC
 ** Objects
 #+BEGIN_SRC javascript
-var firstName = 'Malcolm;
+var firstName = 'Malcolm';
 var lastName = 'X;
 
 function sayName() {
